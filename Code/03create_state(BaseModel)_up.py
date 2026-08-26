@@ -1,5 +1,7 @@
 """
-状态类的对象是BaseModel , 使用 .属性访问
+    创建state类BaseModel(解决ValidationError方案2)
+
+    状态类的对象是BaseModel , 使用 .属性访问
 """
 from langgraph.constants import START, END
 from langgraph.graph import StateGraph
